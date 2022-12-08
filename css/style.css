@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+*{
+    scroll-behavior:smooth;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 0;
+}
+#logo{
+    margin: 2px 1px;
+}
+
+#logo img{
+    margin: 2px;
+    height: 120px;
+    border-radius: 45%;
+}
+#navbar ul{
+    display: flex;
+    position: sticky;
+    font-family: 'Anton', sans-serif;
+}
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 10%;
+    z-index: -1;
+}
+#navbar ul li{
+    list-style: none;
+    font-size: 1.5rem;
+}
+#navbar ul li a{
+    padding: 9px 10px;
+    display: block;
+    color: rgb(39, 48, 56);
+    text-decoration: none;
+    border-radius: 20px;
+}
+#navbar ul li a:hover{
+    color: black;
+    background-color: pink;
+    cursor:pointer;
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 595px;
+    top: 0;
+    left: 0;
+    align-items: center;
+    padding: 3px 200px;
+    margin: 30px 0px;
+}
+#home::before{
+    content: "";
+    background: url(../images/pexels-suzy-hazelwood-1135230.jpg) no-repeat center center/cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 80%;
+    z-index: -1;
+}
+#home h1{
+    color: white;
+    text-align: center;
+    font-family: 'Nerko One', cursive;
+    font-size: 5rem;
+}
+#home p{
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+}
+.primary{
+    font-size: 2.5rem;
+    padding: 20px;
+    color: rgb(77, 6, 77);
+    text-decoration: underline;
+}
+.secondary{
+    font-size: 2rem;
+    padding: 10px;
+    color: rgb(77, 6, 77);
+}
+.btn{
+    padding: 4px;
+    margin: 5px;
+    background-color: #703d19;
+    border-color: #684d4d;
+    color: rgb(255 255 255);
+    font-size: 1rem;
+    font-family: 'Kanit', sans-serif;
+    cursor:grab;
+    border-radius: 11px;
+}
+.box img{
+    height: 200px;
+}
+#serv{
+    margin: 63px 0px 2px 0px;
+}
+#services{
+    margin: 0px;
+    display: flex;
+}
+#services .box{
+    border: 2px solid rebeccapurple;
+    margin: 2px 5px;
+    padding: 13px;
+    border-radius: 23px;
+    background-color:#efdaef;
+}
+#services .box img{
+    height: 160px;
+    display: block;
+    margin: auto;
+}
+.center{
+    text-align: center
+}
+.items img{
+    height: 250px;
+    border-radius: 60%;
+    margin:7px 40px;
+    z-index: 1;
+    border: 2px solid #703d19;
+}
+#products::before{
+    content:"";
+    position: absolute;
+    background: url(../images/candy-gcb0ef8e38_1920.jpg)  no-repeat center center/cover;
+    /* background-color: rgb(61, 47, 25); */
+    height: 150%;
+    width: 100%;
+    opacity: 30%;
+    z-index: -1;
+}
+#products{
+    padding: 0px;
+    margin: 20px 0px;
+    left: 0px;
+    justify-content: center;
+}
+.items{
+    display: inline;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin: 110px;
+}
+#feedback{
+    background-color: rgb(190, 224, 236);
+    height: 100%;
+    
+}
+.customers{
+    display: flex;
+    justify-content: center;
+}
+#feedback img{
+    height: 150px;
+    margin: 20px;
+    border-radius: 50%;
+    border: 3px solid rgb(153, 153, 239);
+}
+.customers div{
+    background-color: rgb(235, 175, 175);
+    border: 2px solid palevioletred;
+    height: 57px;
+    margin: 43px 10px;
+    border-radius: 34px;
+    padding: 20px;
+    width: 80%;
+    font-size: 1.5rem;
+    font-family: 'Kanit', sans-serif;
+}
+#contact{
+    position: relative;
+}
+#contact::before{
+    content: "";
+    position: absolute;
+    background: url(../images/pexels-pixabay-40516.jpg) no-repeat center center/cover;
+    opacity: .3;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+#box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    font-family: 'Nerko One', cursive;
+    color: #4e3434;
+}
+#box input, #box textarea{
+    padding: 0.5rem;
+    width: 100%;
+    font-size: 1rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#box form{
+    width: 40%;
+}
+#submit{
+    width: 50%;
+    margin: 0px 160px;
+}
+#submit input{
+    border-radius: 34px;
+    font-size: 1rem;
+}
+#submit input:hover{
+    cursor:pointer;
+}
+footer{
+    background-color: black;
+    color: aliceblue;
+    padding: 2px;
+    margin-top: 3px;
+}

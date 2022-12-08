@@ -1,0 +1,38 @@
+#home h1{
+    font-size: 3rem;
+}
+#home{
+padding: 3px;
+}
+.items img{
+    height: 150px;
+    margin: 2px 9px;
+}
+.items{
+    margin: 0px;
+}
+#services{
+    flex-direction: column;
+}
+#contact form{
+    width: 80%;
+}
+.customers div{
+    font-size: 1.2rem;
+    margin:22px 10px;
+}
+#feedback p{
+    font-size: 1rem;
+}
+#feedback img{
+    height: 100px;
+}
+#navbar ul li {
+    list-style: none;
+    font-size: 12px;
+}
+#logo img{
+    height: 80px;
+}
+#navbar ul li a {
+    padding: 3px 6px;}
