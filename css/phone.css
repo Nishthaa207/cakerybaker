@@ -18,7 +18,7 @@ padding: 3px;
     width: 80%;
 }
 .customers div{
-    font-size: 1.2rem;
+    font-size: 12px;
     margin:22px 10px;
 }
 #feedback p{
@@ -36,3 +36,14 @@ padding: 3px;
 }
 #navbar ul li a {
     padding: 3px 6px;}
+
+.customers div {
+        background-color: rgb(235, 175, 175);
+        border: 2px solid palevioletred;
+        height: 100%;
+        margin: 43px 10px;
+        border-radius: 34px;
+        padding: 14px;
+        width: 80%;
+        font-family: 'Kanit', sans-serif;
+      }
